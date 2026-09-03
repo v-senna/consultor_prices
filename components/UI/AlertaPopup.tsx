@@ -31,7 +31,7 @@ export default function AlertaPopup({ oferta, onClose }: AlertaPopupProps) {
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.8, opacity: 0, y: 20 }}
           transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-          className="relative w-full max-w-lg rounded-2xl bg-slate-900 border border-emerald-500/50 shadow-[0_0_50px_rgba(57,255,20,0.25)] p-6 text-slate-100 overflow-hidden"
+          className="relative w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl bg-slate-900 border border-emerald-500/50 shadow-[0_0_50px_rgba(57,255,20,0.25)] p-6 text-slate-100"
         >
           {/* Efeito Glow de Varrida no Topo */}
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent animate-pulse" />

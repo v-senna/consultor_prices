@@ -37,7 +37,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-[#0b0f17] text-slate-100 min-h-screen flex flex-col relative overflow-x-hidden font-sans">
+      <body className="bg-[#0b0f17] text-slate-100 min-h-screen flex flex-col relative font-sans w-full">
         <AuthProvider>
           {/* Efeito de Escaneamento de Radar de Fundo */}
           <RadarScanEffect />
